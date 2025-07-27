@@ -28,17 +28,17 @@ public class MainActivity extends AppCompatActivity {
         buttonTong.setOnClickListener(v -> {
             double a = Double.parseDouble("0" + editText1.getText());
             double b = Double.parseDouble("0" + editText2.getText());
-            editText3.setText("a + b = " + (a + b));
+            editText3.setText("a + b = " + (a+b));
         });
         buttonHieu.setOnClickListener(v -> {
             double a = Double.parseDouble("0" + editText1.getText());
             double b = Double.parseDouble("0" + editText2.getText());
-            editText3.setText("a - b = " + (a - b));
+            editText3.setText("a - b = " + (a-b));
         });
         buttonNhan.setOnClickListener(v -> {
             double a = Double.parseDouble("0" + editText1.getText());
             double b = Double.parseDouble("0" + editText2.getText());
-            editText3.setText("a * b = " + (a * b));
+            editText3.setText("a * b = " + (a*b));
         });
         buttonChia.setOnClickListener(v -> {
             double a = Double.parseDouble("0" + editText1.getText());
