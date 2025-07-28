@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="Call Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCall"
+        android:textColor="@android:color/holo_green_dark"
+        android:backgroundTint="#A7A9A7"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:text="Send SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSms"
+        android:textColor="@android:color/holo_green_dark"
+        android:backgroundTint="#A7A9A7"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"/>
+
+</LinearLayout>
