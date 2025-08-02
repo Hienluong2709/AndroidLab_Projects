@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/broadcastReceiver1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BroadcastReceiver1"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:background="#009688"
+        android:gravity="start"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/smsreceiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS Receiver"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:background="#00BCD4"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
